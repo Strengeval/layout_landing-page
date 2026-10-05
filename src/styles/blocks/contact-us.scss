@@ -61,6 +61,10 @@
       border: 2px solid $alternative-color;
       color: $main-text-color;
     }
+
+    &:autofill {
+      box-shadow: inset 0 0 0 1000px #f9f9f9;
+    }
   }
 
   &__button {
